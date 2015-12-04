@@ -15,6 +15,7 @@
 		2A2AE2551C07EE7C00D04D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2AE2531C07EE7C00D04D90 /* LaunchScreen.storyboard */; };
 		2A2AE2601C07EE7C00D04D90 /* shakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE25F1C07EE7C00D04D90 /* shakeTests.m */; };
 		2A2AE26B1C07EE7C00D04D90 /* shakeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AE26A1C07EE7C00D04D90 /* shakeUITests.m */; };
+		2AF5CE151C085739000563C7 /* shakemusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AF5CE141C085739000563C7 /* shakemusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2A2AE2661C07EE7C00D04D90 /* shakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2AE26A1C07EE7C00D04D90 /* shakeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shakeUITests.m; sourceTree = "<group>"; };
 		2A2AE26C1C07EE7C00D04D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF5CE141C085739000563C7 /* shakemusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shakemusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				2A2AE2491C07EE7C00D04D90 /* AppDelegate.m */,
 				2A2AE24B1C07EE7C00D04D90 /* ViewController.h */,
 				2A2AE24C1C07EE7C00D04D90 /* ViewController.m */,
+				2AF5CE141C085739000563C7 /* shakemusic.mp3 */,
 				2A2AE24E1C07EE7C00D04D90 /* Main.storyboard */,
 				2A2AE2511C07EE7C00D04D90 /* Assets.xcassets */,
 				2A2AE2531C07EE7C00D04D90 /* LaunchScreen.storyboard */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A2AE2551C07EE7C00D04D90 /* LaunchScreen.storyboard in Resources */,
+				2AF5CE151C085739000563C7 /* shakemusic.mp3 in Resources */,
 				2A2AE2521C07EE7C00D04D90 /* Assets.xcassets in Resources */,
 				2A2AE2501C07EE7C00D04D90 /* Main.storyboard in Resources */,
 			);
@@ -498,6 +502,7 @@
 				2A2AE2711C07EE7C00D04D90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A2AE2721C07EE7C00D04D90 /* Build configuration list for PBXNativeTarget "shakeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				2A2AE2741C07EE7C00D04D90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A2AE2751C07EE7C00D04D90 /* Build configuration list for PBXNativeTarget "shakeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				2A2AE2771C07EE7C00D04D90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
