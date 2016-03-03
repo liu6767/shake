@@ -24,13 +24,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 //    [[UIApplication sharedApplication] setApplicationSupportsShakeToEdit:YES];
-<<<<<<< HEAD
     NSLog(@"fafadsf");
     NSLog(@"branch1");
-=======
 //    NSLog(@"fafadsf");
     NSLog(@"master");
->>>>>>> master
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
