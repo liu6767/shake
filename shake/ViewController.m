@@ -25,6 +25,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 //    [[UIApplication sharedApplication] setApplicationSupportsShakeToEdit:YES];
 //    NSLog(@"fafadsf");
+    NSLog(@"master");
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
